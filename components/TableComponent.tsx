@@ -3,8 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Button } from "@nextui-org/react";
 import Link from "next/link";
 
-export const revalidate = 0
-
 
 const columns = [
   { key: "Rank", label: "Rank" },
